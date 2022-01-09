@@ -1,3 +1,4 @@
+<h3> Netlify Deploy Link :- <a href="https://moviezz-app.netlify.app/"> Click Here</a></h3>
 <b>Instructions to Run App</b>
 <p>1.Download Source Files and extract It in a new Folder.</p>
 <P>Open VScode And Open That Folder Where Extracted Source File.</P>
