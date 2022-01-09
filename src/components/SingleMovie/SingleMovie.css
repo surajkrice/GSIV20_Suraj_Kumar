@@ -1,0 +1,137 @@
+.singlemovie{
+    display: flex;
+}
+
+.poster-container img{
+    width: 20vw;
+    margin: 3vmax 0.5vmax 0 3vmax
+}
+
+.movie-details{
+ width: 100vh;
+}
+.movie-details>p{
+    margin: 2vmax 0 0 1.5vmax
+}
+
+.title-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2.3vmax 31vmax 2vmax 0;
+}
+.title-container>h3{
+    font-size: 3vmax;
+    font-weight: 300;
+    
+    
+}
+.cast{
+    width: 70vw;
+    height: 21vh;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.rating-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(212, 83, 22);
+}
+.rating-container h2{
+    font-size: 1.7vmax;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 512px) and (max-width: 761px) {
+    .singlemovie{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .poster-container img{
+        width: 65vw;
+        margin: 5vw 0.5vw 0 15vw
+    }
+    .movie-details{
+        width: 50vh;
+        margin: 0 0 0 3vw;
+       }
+    .title-container{
+        margin: 2.3vw 0 5vw 10vw;
+        
+    }
+    .title-container>h3{
+        font-size: 6.5vw;
+
+    }
+    .cast{
+        width: 90vw;
+        height: 41vh;
+        margin: 0 0 0 1.7vw;
+        border-radius: 10vw;
+        background-color: rgb(245, 245, 245);
+    }
+    .movie-details>p{
+        font-size: 3vw;
+        width: 90vw;
+        height: 30vh;
+        margin: 6vw 0 0 1.5vw;
+        
+    }
+    .rating-container{
+        width: 27vw;
+    }
+    .rating-container h2{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+}
+
+@media only screen and (max-width: 512px) {
+    .singlemovie{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .poster-container img{
+        width: 65vw;
+        margin: 5vw 0.5vw 0 15vw
+    }
+    .movie-details{
+        width: 50vh;
+        margin: 0 0 0 3vw;
+       }
+    .title-container{
+        margin: 2.3vw 0 5vw 10vw;
+        
+    }
+    .title-container>h3{
+        font-size: 6.5vw;
+
+    }
+    .cast{
+        width: 90vw;
+        height: 41vh;
+        margin: 0 0 0 1.7vw;
+        border-radius: 10vw;
+        background-color: rgb(245, 245, 245);
+    }
+    .movie-details>p{
+        width: 90vw;
+        height: 30vh;
+        margin: 6vw 0 0 1.5vw;
+        
+    }
+    .rating-container{
+        width: 27vw;
+    }
+    .rating-container h2{
+        font-size: 5vw;
+        font-weight: 500;
+    }
+    
+}

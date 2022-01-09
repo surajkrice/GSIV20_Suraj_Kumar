@@ -1,0 +1,98 @@
+.moviecard-container{
+    width: 16.5vw;
+    margin: 2vmax 0 0 3vmax;
+    
+}
+
+.moviecard-container>img{
+    width: 15vmax;
+}
+.moviecard-container>h3{
+    width: 15vmax;
+    text-align: right;
+    color: rgb(212, 83, 22);
+}
+
+.moviecard-container>h5{
+    font-size: 1vmax;
+    text-align: center;
+}
+
+.moviecard-container>p{
+    font-size: 1vmax;
+    width: 16vmax;
+    height: 3vmax;
+    white-space: rap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+@media only screen and (min-width: 512px) and (max-width: 761px) {
+    .moviecard-container {
+      margin: 3vw 0 0.5vw 5vw;
+      width: 25.5vw;
+      border: 2px solid rgb(224, 48, 48);
+    }
+    .moviecard-container>img{
+        width: 25vw;
+    }
+    .moviecard-container>h3{
+        font-size: 2vw;
+        width: 8vw;
+        margin-left: 16.5vw;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid green;
+
+    }
+    .moviecard-container>h5{
+        font-size: 2.5vw;
+    }
+    .moviecard-container>p{
+        margin: 1vw;
+        font-size: 2vw;
+        width: 23vw;
+        height: 6.5vh;
+        white-space: rap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+  }
+
+@media only screen and (max-width: 512px) {
+    .moviecard-container {
+      margin: 3vw 3.5vw 0 6vw;
+      width: 35.5vw;
+    }
+    .moviecard-container>img{
+        width: 40vw;
+    }
+    .moviecard-container>h3{
+        font-size: 4vw;
+        width: 15vw;
+        margin-left: 25vw;
+        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .moviecard-container>h5{
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    .moviecard-container>p{
+        margin: 1vw;
+        font-size: 3.3vw;
+        width: 40vw;
+        height: 4.5vh;
+        white-space: rap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+    }
+  }
