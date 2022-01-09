@@ -6,7 +6,7 @@
 <p>Now type npm i Node in Terminal (Here All Dependencies which used to build app will automatically added in your node_modules. )</p>
 <p>5. Type npm start (To Start App on Your System)</p>
 
-<b>Challenge Faced :-</b><p>Although the project was not that tough but since i have not used redux before on any projects.
+<b>Challenge Faced :-</b><p>Although the project was not that tough but since i have not used redux before on any project.
 <br>So,The Most challenging part was implementation of redux.  Redux data flow was a bit confusing for me, especially when I was dealing with api. </p>
 <b></b>
 <body>
