@@ -9,7 +9,7 @@
 <br>So,The Most challenging part was implementation of redux.  Redux data flow was a bit confusing for me, especially when I was dealing with api. </p>
 <b></b>
 <body>
-<b>Things To Improve In App</b>
+<b>Things To Improve My Solution</b>
 <p> I would probably try to figure out way to optimize code and performance of the app cause performance of app plays crucial role</p>
 <p>to be succeed in market. </p>
 <b>
