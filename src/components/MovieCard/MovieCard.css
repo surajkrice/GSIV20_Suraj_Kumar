@@ -32,7 +32,6 @@
     .moviecard-container {
       margin: 3vw 0 0.5vw 5vw;
       width: 25.5vw;
-      border: 2px solid rgb(224, 48, 48);
     }
     .moviecard-container>img{
         width: 25vw;
@@ -45,7 +44,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 2px solid green;
 
     }
     .moviecard-container>h5{
