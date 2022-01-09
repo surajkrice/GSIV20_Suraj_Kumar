@@ -11,5 +11,5 @@
 <body>
 <b>Things To Improve In App</b>
 <p> I would probably try to figure out way to optimize code and performance of the app cause performance of app plays crucial role</p>
-<p>to succeed any Product. </p>
+<p>to be succeed in market. </p>
 <b>
